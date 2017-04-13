@@ -1,0 +1,32 @@
+= Hello World
+
+:date: 2017-02-02 12:03
+:category: misc
+:tags: greetings, blab
+
+Hello World, because of popular demand, I'm starting a new blog powered by Jekyll
+and GitHub pages. In the future, I'll probably post semi-serious or random stuff
+in this webpage. My upcoming post will be my 1.5 month experience participating
+in Google Code-in 2016.
+
+I'm planning to "prettify" this website as much as I can (if you know enough, you
+can see I'm not good at design or drawing).
+
+If you don't know me, I just want to say Hello, nice to meet you <3. My name is
+Muhammad Kaisar Arkhan or commonly known under the alias yuki\_is\_bored. I'm
+just your average, \*nix system adminstrator and programmer. I usually do it when
+"I have the time", because I'm currently still in my second year of High School.
+
+Recently, I've became the grand prize winner GCI 2016 under the FOSSASIA org, but
+more detail for that later.
+
+English is not my native language so expect some nasty grammer mistakes, if you
+notice some, please tell me via https://twitter.com/yuki_is_bored[twitter] or
+mailto:yukinagato@protonmail.com[Email] because I want to improve my writing
+skills.
+
+That is all,
+Thanks for reading!
+
+P.S: All of my posts will always be signed under my [Keybase account][keybase]
+as a detached `.sign` file inside the `_signs` folder on the [repo][repo].

@@ -1,0 +1,65 @@
+= Backend Voodoo Magic
+
+:date: 2017-02-17 16:22
+:category: coala
+:tags: system administration, docker, python
+
+So coala has a new website and it’s lovely and moe (props to
+https://github.com/hemangsk[@hemangsk] for making such a beautiful
+site) but it has one particular problem. The backend which is used to
+fetch contributors and make the fancy ``Try coala'' feature to work goes
+502 on a regular basis. Which is pretty bad and really annoying.
+
+At first, I just restarted it and hope it won’t do that again, but after
+a couple of hours it goes 502 again, at this point, I might as well as
+try to invoke it locally and `curl` says there’s no reply. I run bash
+inside the container and `curl` it.
+
+I looked at the logs and it’s empty. The program didn’t output anything
+and I try to find some sort of log files but I have no idea where it is.
+
+I asked https://github.com/hemangsk[@hemangsk] for the reason why the
+logs are empty. It turns out Django doesn’t output logs because it’s
+``production''. Which is pretty bad IMVHO, because it makes problems on
+production really hard to bug and it makes it even harder to debug a new
+bug on production.
+
+Anyway, I ran the backend on my machine with ``development'' mode and it
+just freezes. I asked the community team why it’s freezing for some
+reason and https://github.com/sils[@sils] said to wait for it fetching contributors data.
+
+After a couple of hours, this is already taking too much time.
+https://github.com/sils[@sils] told https://github.com/h[hemangsk] to include
+a loaded database to the repository. So, I pulled the new docker image,
+recreate the container, and start it.
+
+After another couple of hours, it goes to the dreaded 502 error again. I
+asked the community team if it’s fetching contributors on another
+thread. https://github.com/sils[@sils] told me it’s on a _cronjob_. I looked at the
+`settings.py` file and it’s there. after a couple of minutes,
+https://github.com/sils[@sils] and I noticed we’re using Django’s development server
+instead of a proper Python WSGI HTTP server like Gunicorn or uWSGI.
+https://github.com/sils[@sils] suggested uWSGI but I told him to use Gunicorn because of
+from my experience it’s pretty fast and the advantage of having multiple
+workers. In the end, we used gunicorn and it’s stable for a whole week
+which is an outstanding achievement from the usual 6 hours of uptime.
+
+To make sure it works for a really long time (long enough for me to
+watch an entire series and movies of Evangelion), I scaled the container
+for it, used haproxy as a load balancer using the classic round-robin
+and everything went buttery smooth!
+
+I start to like Docker even more especially with making scaling stuff
+really easy and simple. Sure, it has a couple of problems like Docker
+engine touching your iptables and create forward rules that you didn’t
+notice but really those are manageable and it’s not like it has some
+unsecure default like MongoDB.
+
+I haven’t touched Kubernetes and I hope I can play with it in the
+future.
+
+That’s all, Kaisar Arkhan (Yuki) <3
+
+P.S: I have to apologize. The ``My GCI Experience'' story have to be
+delayed because I’m currently not in my writing mood and I’ve been
+pretty busy with school stuff.
