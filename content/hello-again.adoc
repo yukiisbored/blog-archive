@@ -1,0 +1,134 @@
+= Hello again
+
+:date: 2017-04-13 20:34
+:category: blab
+:tags: stories, opinions
+
+Hello world, it's been a long time since I write something. Well, due to
+a lot of constraints like school, work, and some other stuff. It's hard
+to find a good time and mood to write something.
+
+You probably noticed that the whole site change. In fact, it's not just
+the looks of it but the whole infrastructure and setup.
+
+I replaced Jekyll with Pelican due to a number of things:
+
+. It's complex to utilize
+. It's confusing for most of the time
+. It mainly uses markdown
+
+Sure, this is *really* opinionated but really this is just a tool that I
+as the user uses to generate static pages and publish it on Github pages.
+
+The main reason why I like Pelican more than Jekyll is simplicity of usage,
+clear documentation, and extensibility. I just don't find Jekyll to be a
+really nice tool for my needs.
+
+Not to mention that I can write in AsciiDoc instead of the absurd mess that
+everyone loves, Markdown.
+
+I really don't like Markdown because of it's ambiguity and weird nature. It
+was never made to be a good markup language. The main sole purpose of Markdown
+is to be parsed to HTML and make it "easier" to write. It's not mainly made
+to write papers, books, nor articles. Not to mention a lot of good stuff are
+lacking.
+
+Also, I won't be signing my blog posts because I commonly lose my PGP keys.
+Well, that's just bad on my part and I'm looking a good way to utilize PGP
+and pEp seems to be a good project making it easier for normal people to
+use it.
+
+Still, I'm looking for a good way to backup my private keys encrypted. I find
+keybase cloud encryption backup to be quite confusing because I can't find a
+way to get the keys to my system by any means.
+
+Actually, the main reason I don't want to sign my blog posts is because I can't
+find a good way to embed it without having junk on the rendered document.
+
+I've been working a lot on https://solar.coala.io[solar] lately and not much on
+Loklak. Well, this is because I favor system administration work over programming.
+I'm not quite sure which one I should take because programming is starting to be
+a more of a hobby thing for me. Sure, I still *love* creating and writing free
+software but I just love doing "DevOps"/sysadmin work more. This is probably
+because I'm heavily addicited to *nix systems.
+
+I also built my own retro gaming machine with my Raspberry Pi 3 and it's really
+awesome. I use RetroPie but not the image file because downloading it is too slow
+to the point it just fails (smh github releases). So I ended up using raspbian and
+install it manually. I can finally relax with Chrono Trigger and Castlevania <3.
+
+I just watched KonoSuba season 2 and it was funny as the first season. I find it
+amusing how unique and charming the whole anime is and I'm looking forward for
+the next season. I also find it quite unique to parody SAO but with more quality
+than it.
+
+It's been a long time since I read Re:Life and I haven't read the new chapters
+since February. Please don't mail me spoilers ;w;, I want to read it someday.
+
+I also find it amusing that I can surpass to the province level at the type of
+event that I really hate with a passion which is Competitive Programming. Yes,
+I joined the local """Computer""" Olympiad which is CP with more cringy and
+cancerous elitism. I find some of the contestants quite amusing and I promote
+Google Code-In and Besut Kode to the other contestants to my suprise nobody
+even heard of the program. There were a handful of people who heard about it
+but didn't joined, I find it quite sad that the education minister promotes
+total garbage that won't even be used in their carreer over an actual free
+and open source software contributor kickstarter like GCI that would look
+fucking gorgeous on the Resume/CV.
+
+The goverment doesn't care by any means about Free and Open Source Software.
+They'll use pirated copies of Windows, Office, and some other cancerous shites.
+The education minister has failed to educate the people on ownership and
+copyright because they're the ones who distributes pirated copies of Windows
+Server 2012 to schools via VirtualBox Hard Drive images for their Computer based
+National Exams program. I find it to be quite a bang to the head. It's ironic
+where the president of Indonesia wants a war with pirated goods but his own
+goverment keeps pirating Windows, Office, and a mountain of things.
+
+Here's a tip *promote free software* also *free* as in *free speech* not *free beer*.
+I believe free software can help the country to become better and more
+transparent. Free software promotes diversity, collaboration, and teaches people.
+Unlike non-free software where nobody can learn from it or improve it other than
+the sole owner. Besides, I really don't like the fact pirated software are sold
+publicly without any shame. It's like selling tobacco without regulations and
+freely to everyone.
+
+And here I am building networks and servers for my school with solely free
+software. Setup an awesome instance of Moodle for my school and setup the
+students' wifi with pfSense and OpenWRT. It proved to be a reliable choice.
+In fact, We did comparison with pfSense on a Modern Pentium Machine vs
+Routerboard running MikroTik. pfSense proved to be more faster and lesser
+latency than the expensive routerboard.
+
+Why use non-free software and even worse pirating it, use *free software* and
+share it with your friends and neighbors.
+
+Man, I sound like Richard Stallman all of the sudden. Even though I like how BSD
+does things than GNU/Linux. Sorry, Stallman.
+
+It's been a terribly long time since I write code in Go. I find it amusing
+because it's my favorite language of all time. This is probably the fact the orgs
+I mainly work with is using Java or Python and none of them uses Go daily.
+
+I'm also becoming a GSoC mentor mostly for experiences and helping coala. I'm
+hoping I can still join GSoC, if not I'll probably do X.org EVOC instead.
+
+Man, this is really turing out to be a really long post where I blab mostly about
+what's going on lately. I should blog more often just to get stuff out of my chest.
+
+There's this beauty in Emacs when you use it for writing. It's really really smooth
+unlike anything. I don't like word processors like Microsoft Word, LibreOffice Writer,
+etc. I just find them to be quite ambigious and find their shortcuts to be mundane.
+I write faster with AsciiDoc on Emacs. That's just how it is.
+
+Since I got this blazing new laptop, I can finally listen to music, write stuff, do
+a mountain of other things while doing heavy load in the background like compiling.
+This Lenovo Ideapad running i7 Kabylake is seriously too good to be true on this
+price and it is. Sure, it has a really annoying problem because it uses realtek
+wifi which is absolute crap on Linux but that's okay I guess I'll just buy a wifi
+dongle that uses Atheros.
+
+Also, GCI Experience post... Yeah... probably later.
+
+That's about it, I guess.
+Thanks for reading this really really long blab which I doubt anyone to be reading it.
