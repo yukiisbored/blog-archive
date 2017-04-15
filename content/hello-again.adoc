@@ -1,6 +1,7 @@
 = Hello again
 
 :date: 2017-04-13 20:34
+:modified: 2017-04-15 20:29
 :category: blab
 :tags: stories, opinions
 
@@ -71,14 +72,14 @@ I joined the local """Computer""" Olympiad which is CP with more cringy and
 cancerous elitism. I find some of the contestants quite amusing and I promote
 Google Code-In and Besut Kode to the other contestants to my suprise nobody
 even heard of the program. There were a handful of people who heard about it
-but didn't joined, I find it quite sad that the education minister promotes
+but didn't joined, I find it quite sad that the ministry of education promotes
 total garbage that won't even be used in their carreer over an actual free
 and open source software contributor kickstarter like GCI that would look
 fucking gorgeous on the Resume/CV.
 
 The goverment doesn't care by any means about Free and Open Source Software.
 They'll use pirated copies of Windows, Office, and some other cancerous shites.
-The education minister has failed to educate the people on ownership and
+The ministry of education has failed to educate the people on ownership and
 copyright because they're the ones who distributes pirated copies of Windows
 Server 2012 to schools via VirtualBox Hard Drive images for their Computer based
 National Exams program. I find it to be quite a bang to the head. It's ironic
