@@ -1,0 +1,143 @@
+= Some stuff
+
+:date: 2017-04-29 23:33
+:category: blab
+:tags: opinions, stories
+
+Accepting something is hard. There's a lot of things that I said in the past and
+regretting it in the future.
+
+I used to hate Ruby because at first glance it's hard to read and confusing, I
+remember having a pretty heated conversation with a friend about it. Well, after
+a few moments of actually learning Ruby, I fell in love with it and started
+hating Python and became a Ruby fanboy.
+
+It's common for me to immediately hating after becoming a fanboy or watching a
+video on hating X. Yeah, I know it's pretty childish and I'm trying to not do it.
+It's pretty hard nowadays to build my own genuine opinions after seeing someone
+else's opinions, especially the ones you trust.
+
+An old friend of mine told me on the last presidential election that I became an
+immediate fanboy of the losing campaign. Well, yeah, that was on elementary
+school. That's because my family supports the losing campaign and I follow tehm.
+But, I noticed that I'm doing the same nowadays, which I regret.
+
+On my last blog post, I wrote the fact that I hate competitive programming. Well,
+I still don't like the idea of competitive programming, but the hate is getting
+smaller after interacting with the mentors. I wrote "cancerous elitism" probably
+because I was really pissed that this competition is taking my schedule a lot.
+Anyway, I still don't like it and it should be considered as a not-so-needed
+skill, because in practice stuff like what competitive programming is practicing
+is really rare. Not a lot of people are writing their own sorting function, you
+use what's inside your language's standard library. Not a lot of people are
+writing their own OpenGL or software renderer, people use game engines or
+libraries like SDL.
+
+I think competitive programming shouldn't be prioritized as the competition for
+measuring computer/programming skills. I remember one of the mentors talks about
+his experience in collaborating with other people on a project and how it's
+unpleasant. His problems were inconsistent code style, unreadable code, etc. Well,
+that's one of the reasons why I think something like Google Code-in should be
+prioritized over something like competitive programming. Why? Because in GCI
+you contribute to actual free software projects and practice collaborating with
+other people and collective work. You'll know how to contribute, how to work with
+other people, and useful stuff that keeps the project going stable and maintainable
+like Version control systems (ex. `git`), linters (ex.`coala`), static code analysis,
+continous integration (ex. `travis`), documentation tools (ex. `docutils`), etc.
+Not to mention, when you contribute to free software, you'll get criticsm from
+other programmers. This criticsm is important to improve your skills and be a lot
+better. So you won't be a turtle inside your shell and keep doing the same crap
+forever.
+
+Anyway, someone called me the Indonesian version of Stallman because I prefer FLOSS
+a lot and use it over nonfree software. Well, they're not wrong, but I'm not *that*
+hardcore because I still rely on nonfree software/services like Telegram, Twitter,
+Github, etc.
+
+I got a coala.io email address which is sweet. It's yuki@coala.io and I really
+wanna use it more. For now, I'm still using yukinagato@protonmail.com as my main
+email. I'm still waiting for IMAP support, etc. Most likely i'll just set it to
+forward to my main email. Who knows.
+
+Also, you may notice a new look on my blog. Well, I really want an improved and
+more readable look of it. At first, I wanna try make my own theme but I really
+suck at front-end (I would never be as good as https://github.com/hemangk[@hemangsk]).
+So, I ended up forking Pure theme and make some changes, like make the sidebar
+to be sexy pink and change some other stuff like my waifu on the corner.
+
+Also, I can't come up with titles for my posts, because most of them are just
+"updates" or something that I have in mind.
+
+I dockerized https://gitmate.io[GitMate] and really like the result, there are
+some bugs that I'll fix tomorrow or later. I'm still pretty stressed with the
+bugs that came up on production, which I hope we can find the source. We probably
+need more eyeballs.
+
+My birthday is coming up, but I won't be getting any presents because my Dad
+already bought me a really awesome laptop. Which is okay. Another thing that I
+wanna do after I'm 17 is to create a National ID card and create a new bank
+account so I can actually receive money from various freelancing work.
+
+I'm really grateful for everything that happened to me in this year. I won GCI
+2016, working for FLOSS organizations, freelancing on various projects. I'm really
+lucky.
+
+Also, after actually meeting with the other participants I noticed a lot of
+interesting people. Since i'm on the province level and everything is more
+concetrated. I can talk with more people and meet them.
+
+I wanna promote GCI to them at some time, probably when I lose on the province
+level because I honestly doubt that I win. Some of the mentors has some hopes that
+I win. But I honestly doubt that. If I do, I have no idea and very grateful to
+Allah.
+
+I really wanna tell people and promote FOSS to local programmers especially the
+ones who wanna be programmers because it's the most effective way to practice
+and improve their skills. I'm hoping more people will join Besut Kode 2017. I don't
+know if I'll be a mentor again this year, so yeah.
+
+I'm really grateful and really wanna thank Wikimedia Indonesia for doing programs
+and initiatives like Besut Kode, WikiLatih, etc. They're really nice people and
+are doing really awesome things. I wish more teachers, professors, people
+contribute to Wikipedia Indonesia. You see, a lot of teachers don't like Wikipedia
+because of it's "inaccurateness" and collective ways, I really want to tell them,
+"If you know it's wrong, fix it". Because it's stupid to think something open and
+collective will always be wrong even though there's a lot of people who verifies
+changes and reverts vandalism.
+
+I'm also really grateful to be a part of coala and FOSSASIA. They've done a lot
+for me, even if it's indirect. They gave me experiences in FOSS, System
+Administration experiences, etc. I wish I took more photos when I visit FOSSASIA
+2017.
+
+Also, I noticed a lot of the competitive programming mentors haven't heard about
+GSoC. Like seriously. They know Google Code Jam, but not GSoC. Well, I'm hoping
+to promote it to them at some point of time.
+
+Talking about GSoC, I'm mentoring for coala this year. Which is awesome. I'm
+hoping I can be a student for GSoC in the future. If not, I'll probably join
+Xorg's EVOC.
+
+coala is considering doing it's own summer coding program. Which is awesome,
+no idea if it'll be a thing or not though.
+
+Also, yeah, I kinda wanna do things for Xorg in the future. I just don't have the
+time to learn the code base and more stuff about C and UNIX programming. I don't
+know if I can, but I'll try.
+
+Another thing that I wanna do is more advanced stuff like Assembly/Low Level
+programming. Just as a hobby. I don't know where should I start.
+
+Anyway, right now, I really want a new ergonomic keyboard because my current one
+is start to become a pain. Sure it's not bad as the old one but it's starts to
+become a pain. I'm looking at the Microsoft Sculpt Keyboard and start saving
+money for it. I don't know if my parents would buy it for me or not because it's
+pretty expensive.
+
+I also wanna continue my Linux primer book, I'm hoping to that pretty soon,
+because I wanna teach my friends the beauty of *nix operating systems.
+
+Anyway, That's it for now. This damn AsciiDoc file is fucking 143 lines long.
+
+Thanks,
+Muhammad Kaisar Arkhan
