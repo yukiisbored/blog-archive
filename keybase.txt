@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/yuki_is_bored
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://yukiisbored.github.io
+  * I am yuki_is_bored (https://keybase.io/yuki_is_bored) on keybase.
+  * I have a public key ASALBD0KJIGTmDJaAeRyh9Thu8QECYvgRUZUzZKKWJNzWwo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "012010eecd2a871eeddc5573a41999c915b6ecc9d055c71ab70b661d7d5a82ea2cc40a",
+            "host": "keybase.io",
+            "kid": "01200b043d0a24819398325a01e47287d4e1bbc404098be0454654cd928a5893735b0a",
+            "uid": "303ae31f87e6b5fc4948fd8c8628cf19",
+            "username": "yuki_is_bored"
+        },
+        "service": {
+            "hostname": "yukiisbored.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.20"
+    },
+    "ctime": 1493488126,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1493488004,
+        "hash": "c5b085cef4c9f036624423c48e86426774ce2b49dab022e03c931628c4333c513df1f9682ac13f64cadee521d2bf6bc2b8ddc088ac42f1e91f19a96e68b388a0",
+        "seqno": 1045094
+    },
+    "prev": "e9e5ff8a4b95bc56427a05c969ed2ad6c9fb0a07f3a39919de33a760619e89ac",
+    "seqno": 71,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgCwQ9CiSBk5gyWgHkcofU4bvEBAmL4EVGVM2SiliTc1sKp3BheWxvYWTFAwR7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwMTBlZWNkMmE4NzFlZWRkYzU1NzNhNDE5OTljOTE1YjZlY2M5ZDA1NWM3MWFiNzBiNjYxZDdkNWE4MmVhMmNjNDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMGIwNDNkMGEyNDgxOTM5ODMyNWEwMWU0NzI4N2Q0ZTFiYmM0MDQwOThiZTA0NTQ2NTRjZDkyOGE1ODkzNzM1YjBhIiwidWlkIjoiMzAzYWUzMWY4N2U2YjVmYzQ5NDhmZDhjODYyOGNmMTkiLCJ1c2VybmFtZSI6Inl1a2lfaXNfYm9yZWQifSwic2VydmljZSI6eyJob3N0bmFtZSI6Inl1a2lpc2JvcmVkLmdpdGh1Yi5pbyIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjIwIn0sImN0aW1lIjoxNDkzNDg4MTI2LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0OTM0ODgwMDQsImhhc2giOiJjNWIwODVjZWY0YzlmMDM2NjI0NDIzYzQ4ZTg2NDI2Nzc0Y2UyYjQ5ZGFiMDIyZTAzYzkzMTYyOGM0MzMzYzUxM2RmMWY5NjgyYWMxM2Y2NGNhZGVlNTIxZDJiZjZiYzJiOGRkYzA4OGFjNDJmMWU5MWYxOWE5NmU2OGIzODhhMCIsInNlcW5vIjoxMDQ1MDk0fSwicHJldiI6ImU5ZTVmZjhhNGI5NWJjNTY0MjdhMDVjOTY5ZWQyYWQ2YzlmYjBhMDdmM2EzOTkxOWRlMzNhNzYwNjE5ZTg5YWMiLCJzZXFubyI6NzEsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RACAWQ1nWHHcLe2G/N3l6Lc54wks35ikljxG3sa0WXFUvOUrR24IDBSOw5duESocxxOlT3xtZi6yWq6VJiPmT9BqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIF6aUWBlI9PXkbA0Suix2mX6PpY7ThRJ9M+gG9KF92Fno3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/yuki_is_bored
+
+==================================================================
