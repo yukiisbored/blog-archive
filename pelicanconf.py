@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Muhammad Kaisar Arkhan'
 SITENAME = u"Yuki's Boredom"
-SITEURL = ''
+SITEURL = 'https://yukiisbored.github.io/'
 
 PATH = 'content'
 
@@ -19,19 +19,19 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (('coala DevOps', 'https://solar.coala.io'),
-         ('Loklak', 'https://loklak.org'),
-         ('Planet coala', 'https://blog.coala.io'),)
+SOCIAL = (
+    ('twitter', 'https://twitter.com/yuki_is_bored'),
+    ('telegram', 'https://telegram.me/yuki_is_bored'),
+    ('github', 'https://github.com/yukiisbored'),
+    ('gitlab', 'https://gitlab.com/yuki_is_bored')
+)
 
-# Social widget
-SOCIAL = (('Twitter', 'https://twitter.com/yuki_is_bored'),
-          ('Github', 'https://github.com/yukiisbored'),)
-
-#DEFAULT_PAGINATION = 10
+PROFILE_IMG_URL = 'https://avatars2.githubusercontent.com/yukiisbored?&s=200'
 
 PLUGIN_PATHS = ["plugins"]
 PLUGINS = ["asciidoc_reader"]
+
+THEME = 'pure-single'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
