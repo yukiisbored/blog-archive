@@ -6,7 +6,7 @@
 
 a {
     text-decoration: none;
-    color: #E81C4F;
+    color: #cd3535;
 }
 a:hover,
 a:focus {
@@ -268,6 +268,7 @@ pre {
     padding-left: 25%; /* "left col (nav + list)" width */
     position: relative;
 }
+
 @media (max-width: 767px) {
     .sidebar {
         width: 100%;
@@ -306,14 +307,4 @@ pre {
     .cover-img {
         background-position: 0;
     }
-}
-
-/* Very important */
-body::after {
-    position: fixed !important;
-    content: url('https://i.imgur.com/AD18Ld2.png'); /* Best waifu */
-    bottom: -3px !important;
-    right: 0px !important;
-    opacity: 0.7;
-    z-index: -1;
 }
