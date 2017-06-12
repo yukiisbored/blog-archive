@@ -26,7 +26,7 @@ SOCIAL = (
     ('gitlab', 'https://gitlab.com/yuki_is_bored')
 )
 
-PROFILE_IMG_URL = 'https://avatars2.githubusercontent.com/yukiisbored?&s=200'
+PROFILE_IMG_URL = 'https://avatars2.githubusercontent.com/yukiisbored?&s=600'
 
 PLUGIN_PATHS = ["plugins"]
 PLUGINS = ["asciidoc_reader"]
