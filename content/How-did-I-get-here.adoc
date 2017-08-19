@@ -1,7 +1,6 @@
 = How did I get here?
 :date: 2017-08-19 21:00
-:category: misc
-:categories: story
+:category: story-time
 
 It's one of those question that I often ask myself personally, How did I get
 here. How did I became a maintainer for two organizations, How did I get a
