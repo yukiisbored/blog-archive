@@ -29,7 +29,9 @@ SOCIAL = (
 PROFILE_IMG_URL = 'https://avatars2.githubusercontent.com/yukiisbored?&s=300'
 
 PLUGIN_PATHS = ["plugins"]
-PLUGINS = ["asciidoc_reader"]
+PLUGINS = ["asciidoc_reader", "org_reader"]
+
+ORG_READER_EMACS_LOCATION = "/usr/bin/emacs"
 
 THEME = 'pure-single'
 

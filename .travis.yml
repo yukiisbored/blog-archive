@@ -9,6 +9,7 @@ addons:
   apt:
     packages:
       - asciidoc
+      - emacs
 
 install:
   - pip install -r requirements.txt
