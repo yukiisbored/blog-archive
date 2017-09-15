@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Yuki's Boredom - blab</title><link href="https://yukiisbored.github.io/" rel="alternate"></link><link href="https://yukiisbored.github.io/feeds/blab.atom.xml" rel="self"></link><id>https://yukiisbored.github.io/</id><updated>2017-04-29T23:33:00+07:00</updated><entry><title>Some stuff</title><link href="https://yukiisbored.github.io/some-stuff.html" rel="alternate"></link><published>2017-04-29T23:33:00+07:00</published><updated>2017-04-29T23:33:00+07:00</updated><author><name>Muhammad Kaisar Arkhan</name></author><id>tag:yukiisbored.github.io,2017-04-29:/some-stuff.html</id><summary type="html">&lt;div id="preamble"&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;Accepting something is hard. There&amp;#8217;s a lot of things that I said in the past and
+regretting it in the future.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;I used to hate Ruby because at first glance it&amp;#8217;s hard to read and confusing, I
+remember having a pretty heated conversation with a friend about it …&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</summary><content type="html">&lt;div id="preamble"&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;Accepting something is hard. There&amp;#8217;s a lot of things that I said in the past and
+regretting it in the future.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;I used to hate Ruby because at first glance it&amp;#8217;s hard to read and confusing, I
+remember having a pretty heated conversation with a friend about it. Well, after
+a few moments of actually learning Ruby, I fell in love with it and started
+hating Python and became a Ruby fanboy.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;It&amp;#8217;s common for me to immediately hating after becoming a fanboy or watching a
+video on hating X. Yeah, I know it&amp;#8217;s pretty childish and I&amp;#8217;m trying to not do it.
+It&amp;#8217;s pretty hard nowadays to build my own genuine opinions after seeing someone
+else&amp;#8217;s opinions, especially the ones you trust.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;An old friend of mine told me on the last presidential election that I became an
+immediate fanboy of the losing campaign. Well, yeah, that was on elementary
+school. That&amp;#8217;s because my family supports the losing campaign and I follow tehm.
+But, I noticed that I&amp;#8217;m doing the same nowadays, which I regret.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;On my last blog post, I wrote the fact that I hate competitive programming. Well,
+I still don&amp;#8217;t like the idea of competitive programming, but the hate is getting
+smaller after interacting with the mentors. I wrote "cancerous elitism" probably
+because I was really pissed that this competition is taking my schedule a lot.
+Anyway, I still don&amp;#8217;t like it and it should be considered as a not-so-needed
+skill, because in practice stuff like what competitive programming is practicing
+is really rare. Not a lot of people are writing their own sorting function, you
+use what&amp;#8217;s inside your language&amp;#8217;s standard library. Not a lot of people are
+writing their own OpenGL or software renderer, people use game engines or
+libraries like SDL.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;I think competitive programming shouldn&amp;#8217;t be prioritized as the competition for
+measuring computer/programming skills. I remember one of the mentors talks about
+his experience in collaborating with other people on a project and how it&amp;#8217;s
+unpleasant. His problems were inconsistent code style, unreadable code, etc. Well,
+that&amp;#8217;s one of the reasons why I think something like Google Code-in should be
+prioritized over something like competitive programming. Why? Because in GCI
+you contribute to actual free software projects and practice collaborating with
+other people and collective work. You&amp;#8217;ll know how to contribute, how to work with
+other people, and useful stuff that keeps the project going stable and maintainable
+like Version control systems (ex. &lt;span class="monospaced"&gt;git&lt;/span&gt;), linters (ex.&lt;span class="monospaced"&gt;coala&lt;/span&gt;), static code analysis,
+continous integration (ex. &lt;span class="monospaced"&gt;travis&lt;/span&gt;), documentation tools (ex. &lt;span class="monospaced"&gt;docutils&lt;/span&gt;), etc.
+Not to mention, when you contribute to free software, you&amp;#8217;ll get criticsm from
+other programmers. This criticsm is important to improve your skills and be a lot
+better. So you won&amp;#8217;t be a turtle inside your shell and keep doing the same crap
+forever.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;Anyway, someone called me the Indonesian version of Stallman because I prefer FLOSS
+a lot and use it over nonfree software. Well, they&amp;#8217;re not wrong, but I&amp;#8217;m not &lt;strong&gt;that&lt;/strong&gt;
+hardcore because I still rely on nonfree software/services like Telegram, Twitter,
+Github, etc.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;I got a coala.io email address which is sweet. It&amp;#8217;s &lt;a href="mailto:yuki@coala.io"&gt;yuki@coala.io&lt;/a&gt; and I really
+wanna use it more. For now, I&amp;#8217;m still using &lt;a href="mailto:yukinagato@protonmail.com"&gt;yukinagato@protonmail.com&lt;/a&gt; as my main
+email. I&amp;#8217;m still waiting for IMAP support, etc. Most likely i&amp;#8217;ll just set it to
+forward to my main email. Who knows.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;Also, you may notice a new look on my blog. Well, I really want an improved and
+more readable look of it. At first, I wanna try make my own theme but I really
+suck at front-end (I would never be as good as &lt;a href="https://github.com/hemangk"&gt;@hemangsk&lt;/a&gt;).
+So, I ended up forking Pure theme and make some changes, like make the sidebar
+to be sexy pink and change some other stuff like my waifu on the corner.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;Also, I can&amp;#8217;t come up with titles for my posts, because most of them are just
+"updates" or something that I have in mind.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;I dockerized &lt;a href="https://gitmate.io"&gt;GitMate&lt;/a&gt; and really like the result, there are
+some bugs that I&amp;#8217;ll fix tomorrow or later. I&amp;#8217;m still pretty stressed with the
+bugs that came up on production, which I hope we can find the source. We probably
+need more eyeballs.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;My birthday is coming up, but I won&amp;#8217;t be getting any presents because my Dad
+already bought me a really awesome laptop. Which is okay. Another thing that I
+wanna do after I&amp;#8217;m 17 is to create a National ID card and create a new bank
+account so I can actually receive money from various freelancing work.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;I&amp;#8217;m really grateful for everything that happened to me in this year. I won GCI
+2016, working for FLOSS organizations, freelancing on various projects. I&amp;#8217;m really
+lucky.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;Also, after actually meeting with the other participants I noticed a lot of
+interesting people. Since i&amp;#8217;m on the province level and everything is more
+concetrated. I can talk with more people and meet them.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;I wanna promote GCI to them at some time, probably when I lose on the province
+level because I honestly doubt that I win. Some of the mentors has some hopes that
+I win. But I honestly doubt that. If I do, I have no idea and very grateful to
+Allah.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;I really wanna tell people and promote FOSS to local programmers especially the
+ones who wanna be programmers because it&amp;#8217;s the most effective way to practice
+and improve their skills. I&amp;#8217;m hoping more people will join Besut Kode 2017. I don&amp;#8217;t
+know if I&amp;#8217;ll be a mentor again this year, so yeah.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;I&amp;#8217;m really grateful and really wanna thank Wikimedia Indonesia for doing programs
+and initiatives like Besut Kode, WikiLatih, etc. They&amp;#8217;re really nice people and
+are doing really awesome things. I wish more teachers, professors, people
+contribute to Wikipedia Indonesia. You see, a lot of teachers don&amp;#8217;t like Wikipedia
+because of it&amp;#8217;s "inaccurateness" and collective ways, I really want to tell them,
+"If you know it&amp;#8217;s wrong, fix it". Because it&amp;#8217;s stupid to think something open and
+collective will always be wrong even though there&amp;#8217;s a lot of people who verifies
+changes and reverts vandalism.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;I&amp;#8217;m also really grateful to be a part of coala and FOSSASIA. They&amp;#8217;ve done a lot
+for me, even if it&amp;#8217;s indirect. They gave me experiences in FOSS, System
+Administration experiences, etc. I wish I took more photos when I visit FOSSASIA
+2017.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;Also, I noticed a lot of the competitive programming mentors haven&amp;#8217;t heard about
+GSoC. Like seriously. They know Google Code Jam, but not GSoC. Well, I&amp;#8217;m hoping
+to promote it to them at some point of time.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;Talking about GSoC, I&amp;#8217;m mentoring for coala this year. Which is awesome. I&amp;#8217;m
+hoping I can be a student for GSoC in the future. If not, I&amp;#8217;ll probably join
+Xorg&amp;#8217;s EVOC.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;coala is considering doing it&amp;#8217;s own summer coding program. Which is awesome,
+no idea if it&amp;#8217;ll be a thing or not though.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;Also, yeah, I kinda wanna do things for Xorg in the future. I just don&amp;#8217;t have the
+time to learn the code base and more stuff about C and UNIX programming. I don&amp;#8217;t
+know if I can, but I&amp;#8217;ll try.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;Another thing that I wanna do is more advanced stuff like Assembly/Low Level
+programming. Just as a hobby. I don&amp;#8217;t know where should I start.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;Anyway, right now, I really want a new ergonomic keyboard because my current one
+is start to become a pain. Sure it&amp;#8217;s not bad as the old one but it&amp;#8217;s starts to
+become a pain. I&amp;#8217;m looking at the Microsoft Sculpt Keyboard and start saving
+money for it. I don&amp;#8217;t know if my parents would buy it for me or not because it&amp;#8217;s
+pretty expensive.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;I also wanna continue my Linux primer book, I&amp;#8217;m hoping to that pretty soon,
+because I wanna teach my friends the beauty of *nix operating systems.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;Anyway, That&amp;#8217;s it for now. This damn AsciiDoc file is fucking 143 lines long.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;Thanks,
+Muhammad Kaisar Arkhan&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content><category term="opinions"></category><category term="stories"></category></entry><entry><title>Hello again</title><link href="https://yukiisbored.github.io/hello-again.html" rel="alternate"></link><published>2017-04-13T20:34:00+07:00</published><updated>2017-04-15T20:29:00+07:00</updated><author><name>Muhammad Kaisar Arkhan</name></author><id>tag:yukiisbored.github.io,2017-04-13:/hello-again.html</id><summary type="html">&lt;div id="preamble"&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;Hello world, it&amp;#8217;s been a long time since I write something. Well, due to
+a lot of constraints like school, work, and some other stuff. It&amp;#8217;s hard
+to find a good time and mood to write something.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;You probably noticed that the whole site change. In fact, it …&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</summary><content type="html">&lt;div id="preamble"&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;Hello world, it&amp;#8217;s been a long time since I write something. Well, due to
+a lot of constraints like school, work, and some other stuff. It&amp;#8217;s hard
+to find a good time and mood to write something.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;You probably noticed that the whole site change. In fact, it&amp;#8217;s not just
+the looks of it but the whole infrastructure and setup.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;I replaced Jekyll with Pelican due to a number of things:&lt;/p&gt;&lt;/div&gt;
+&lt;div class="olist arabic"&gt;&lt;ol class="arabic"&gt;
+&lt;li&gt;
+&lt;p&gt;
+It&amp;#8217;s complex to utilize
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+It&amp;#8217;s confusing for most of the time
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+It mainly uses markdown
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;Sure, this is &lt;strong&gt;really&lt;/strong&gt; opinionated but really this is just a tool that I
+as the user uses to generate static pages and publish it on Github pages.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;The main reason why I like Pelican more than Jekyll is simplicity of usage,
+clear documentation, and extensibility. I just don&amp;#8217;t find Jekyll to be a
+really nice tool for my needs.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;Not to mention that I can write in AsciiDoc instead of the absurd mess that
+everyone loves, Markdown.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;I really don&amp;#8217;t like Markdown because of it&amp;#8217;s ambiguity and weird nature. It
+was never made to be a good markup language. The main sole purpose of Markdown
+is to be parsed to HTML and make it "easier" to write. It&amp;#8217;s not mainly made
+to write papers, books, nor articles. Not to mention a lot of good stuff are
+lacking.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;Also, I won&amp;#8217;t be signing my blog posts because I commonly lose my PGP keys.
+Well, that&amp;#8217;s just bad on my part and I&amp;#8217;m looking a good way to utilize PGP
+and pEp seems to be a good project making it easier for normal people to
+use it.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;Still, I&amp;#8217;m looking for a good way to backup my private keys encrypted. I find
+keybase cloud encryption backup to be quite confusing because I can&amp;#8217;t find a
+way to get the keys to my system by any means.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;Actually, the main reason I don&amp;#8217;t want to sign my blog posts is because I can&amp;#8217;t
+find a good way to embed it without having junk on the rendered document.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;I&amp;#8217;ve been working a lot on &lt;a href="https://solar.coala.io"&gt;solar&lt;/a&gt; lately and not much on
+Loklak. Well, this is because I favor system administration work over programming.
+I&amp;#8217;m not quite sure which one I should take because programming is starting to be
+a more of a hobby thing for me. Sure, I still &lt;strong&gt;love&lt;/strong&gt; creating and writing free
+software but I just love doing "DevOps"/sysadmin work more. This is probably
+because I&amp;#8217;m heavily addicited to *nix systems.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;I also built my own retro gaming machine with my Raspberry Pi 3 and it&amp;#8217;s really
+awesome. I use RetroPie but not the image file because downloading it is too slow
+to the point it just fails (smh github releases). So I ended up using raspbian and
+install it manually. I can finally relax with Chrono Trigger and Castlevania &amp;lt;3.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;I just watched KonoSuba season 2 and it was funny as the first season. I find it
+amusing how unique and charming the whole anime is and I&amp;#8217;m looking forward for
+the next season. I also find it quite unique to parody SAO but with more quality
+than it.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;It&amp;#8217;s been a long time since I read Re:Life and I haven&amp;#8217;t read the new chapters
+since February. Please don&amp;#8217;t mail me spoilers ;w;, I want to read it someday.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;I also find it amusing that I can surpass to the province level at the type of
+event that I really hate with a passion which is Competitive Programming. Yes,
+I joined the local """Computer""" Olympiad which is CP with more cringy and
+cancerous elitism. I find some of the contestants quite amusing and I promote
+Google Code-In and Besut Kode to the other contestants to my suprise nobody
+even heard of the program. There were a handful of people who heard about it
+but didn&amp;#8217;t joined, I find it quite sad that the ministry of education promotes
+total garbage that won&amp;#8217;t even be used in their carreer over an actual free
+and open source software contributor kickstarter like GCI that would look
+fucking gorgeous on the Resume/CV.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;The goverment doesn&amp;#8217;t care by any means about Free and Open Source Software.
+They&amp;#8217;ll use pirated copies of Windows, Office, and some other cancerous shites.
+The ministry of education has failed to educate the people on ownership and
+copyright because they&amp;#8217;re the ones who distributes pirated copies of Windows
+Server 2012 to schools via VirtualBox Hard Drive images for their Computer based
+National Exams program. I find it to be quite a bang to the head. It&amp;#8217;s ironic
+where the president of Indonesia wants a war with pirated goods but his own
+goverment keeps pirating Windows, Office, and a mountain of things.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;Here&amp;#8217;s a tip &lt;strong&gt;promote free software&lt;/strong&gt; also &lt;strong&gt;free&lt;/strong&gt; as in &lt;strong&gt;free speech&lt;/strong&gt; not &lt;strong&gt;free beer&lt;/strong&gt;.
+I believe free software can help the country to become better and more
+transparent. Free software promotes diversity, collaboration, and teaches people.
+Unlike non-free software where nobody can learn from it or improve it other than
+the sole owner. Besides, I really don&amp;#8217;t like the fact pirated software are sold
+publicly without any shame. It&amp;#8217;s like selling tobacco without regulations and
+freely to everyone.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;And here I am building networks and servers for my school with solely free
+software. Setup an awesome instance of Moodle for my school and setup the
+students' wifi with pfSense and OpenWRT. It proved to be a reliable choice.
+In fact, We did comparison with pfSense on a Modern Pentium Machine vs
+Routerboard running MikroTik. pfSense proved to be more faster and lesser
+latency than the expensive routerboard.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;Why use non-free software and even worse pirating it, use &lt;strong&gt;free software&lt;/strong&gt; and
+share it with your friends and neighbors.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;Man, I sound like Richard Stallman all of the sudden. Even though I like how BSD
+does things than GNU/Linux. Sorry, Stallman.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;It&amp;#8217;s been a terribly long time since I write code in Go. I find it amusing
+because it&amp;#8217;s my favorite language of all time. This is probably the fact the orgs
+I mainly work with is using Java or Python and none of them uses Go daily.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;I&amp;#8217;m also becoming a GSoC mentor mostly for experiences and helping coala. I&amp;#8217;m
+hoping I can still join GSoC, if not I&amp;#8217;ll probably do X.org EVOC instead.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;Man, this is really turing out to be a really long post where I blab mostly about
+what&amp;#8217;s going on lately. I should blog more often just to get stuff out of my chest.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;There&amp;#8217;s this beauty in Emacs when you use it for writing. It&amp;#8217;s really really smooth
+unlike anything. I don&amp;#8217;t like word processors like Microsoft Word, LibreOffice Writer,
+etc. I just find them to be quite ambigious and find their shortcuts to be mundane.
+I write faster with AsciiDoc on Emacs. That&amp;#8217;s just how it is.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;Since I got this blazing new laptop, I can finally listen to music, write stuff, do
+a mountain of other things while doing heavy load in the background like compiling.
+This Lenovo Ideapad running i7 Kabylake is seriously too good to be true on this
+price and it is. Sure, it has a really annoying problem because it uses realtek
+wifi which is absolute crap on Linux but that&amp;#8217;s okay I guess I&amp;#8217;ll just buy a wifi
+dongle that uses Atheros.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;Also, GCI Experience post&amp;#8230; Yeah&amp;#8230; probably later.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;That&amp;#8217;s about it, I guess.
+Thanks for reading this really really long blab which I doubt anyone to be reading it.&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content><category term="stories"></category><category term="opinions"></category></entry></feed>

@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Yuki's Boredom, ">
+
+        <link rel="alternate"  href="https://yukiisbored.github.io/feeds/all.atom.xml" type="application/atom+xml" title="Yuki's Boredom Full Atom Feed"/>
+
+        <title>Hello World &raquo; Yuki's Boredom </title>
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.3.0/pure-min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://yukiisbored.github.io/theme/css/pure.css">
+    <link rel="stylesheet" href="https://yukiisbored.github.io/theme/css/pygments.css">
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fitvids/1.0.1/jquery.fitvids.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".content").fitVids();
+        });
+    </script>
+</head>
+
+<body>
+    <div class="pure-g-r" id="layout">
+        <div class="sidebar pure-u">
+            <div class="cover-img" style="background: none repeat scroll 0% 0% #cd3535">
+                <div class="cover-body">
+                    <header class="header">
+                        <hgroup>
+                            <img class="avatar" src="https://avatars2.githubusercontent.com/yukiisbored?&s=300">
+                            <h1 class="brand-main"><a href="https://yukiisbored.github.io">Yuki's Boredom</a></h1>
+                            <p class="tagline"></p>
+                                <p class="social">
+                                    <a href="https://twitter.com/yuki_is_bored">
+                                        <i class="fa fa-twitter fa-3x"></i>
+                                    </a>
+                                    <a href="https://telegram.me/yuki_is_bored">
+                                        <i class="fa fa-telegram fa-3x"></i>
+                                    </a>
+                                    <a href="https://github.com/yukiisbored">
+                                        <i class="fa fa-github fa-3x"></i>
+                                    </a>
+                                    <a href="https://gitlab.com/yuki_is_bored">
+                                        <i class="fa fa-gitlab fa-3x"></i>
+                                    </a>
+                                </p>
+                        </hgroup>
+                    </header>
+                </div>
+            </div>
+        </div>
+    <div class="pure-u">
+        <div class="content">
+            <section class="post">
+                <header class="post-header">
+                    <h1>Hello World</h1>
+                        <p class="post-meta">
+                            // under                                 <a class="post-category" href="https://yukiisbored.github.io/tag/greetings.html">greetings</a>
+                                <a class="post-category" href="https://yukiisbored.github.io/tag/blab.html">blab</a>
+                        </p>
+                </header>
+            </section>
+            <div id="preamble">
+<div class="sectionbody">
+<div class="paragraph"><p>Hello World, because of popular demand, I&#8217;m starting a new blog powered by Jekyll
+and GitHub pages. In the future, I&#8217;ll probably post semi-serious or random stuff
+in this webpage. My upcoming post will be my 1.5 month experience participating
+in Google Code-in 2016.</p></div>
+<div class="paragraph"><p>I&#8217;m planning to "prettify" this website as much as I can (if you know enough, you
+can see I&#8217;m not good at design or drawing).</p></div>
+<div class="paragraph"><p>If you don&#8217;t know me, I just want to say Hello, nice to meet you &lt;3. My name is
+Muhammad Kaisar Arkhan or commonly known under the alias yuki\_is\_bored. I&#8217;m
+just your average, \*nix system adminstrator and programmer. I usually do it when
+"I have the time", because I&#8217;m currently still in my second year of High School.</p></div>
+<div class="paragraph"><p>Recently, I&#8217;ve became the grand prize winner GCI 2016 under the FOSSASIA org, but
+more detail for that later.</p></div>
+<div class="paragraph"><p>English is not my native language so expect some nasty grammer mistakes, if you
+notice some, please tell me via <a href="https://twitter.com/yuki_is_bored">twitter</a> or
+<a href="mailto:yukinagato@protonmail.com">Email</a> because I want to improve my writing
+skills.</p></div>
+<div class="paragraph"><p>That is all,
+Thanks for reading!</p></div>
+<div class="paragraph"><p>P.S: All of my posts will always be signed under my [Keybase account][keybase]
+as a detached <span class="monospaced">.sign</span> file inside the <span class="monospaced">_signs</span> folder on the [repo][repo].</p></div>
+</div>
+</div>
+
+            <a href="#" class="go-top">Go Top</a>
+<footer class="footer">
+    <p>&copy; Muhammad Kaisar Arkhan &ndash;
+        Built with a customized version of <a href="https://github.com/PurePelicanTheme/pure-single">Pure Theme</a>
+        for <a href="http://blog.getpelican.com/">Pelican</a>
+    </p>
+</footer>        </div>
+    </div>
+    </div>
+    <script>
+        var $top = $('.go-top');
+
+        // Show or hide the sticky footer button
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 200) {
+                $top.fadeIn(200);
+            } else {
+                $top.fadeOut(200);
+            }
+        });
+
+        // Animate the scroll to top
+        $top.click(function(event) {
+            event.preventDefault();
+            $('html, body').animate({scrollTop: 0}, 300);
+        })
+
+        // Makes sure that the href="#" attached to the <a> elements
+        // don't scroll you back up the page.
+        $('body').on('click', 'a[href="#"]', function(event) {
+            event.preventDefault();
+        });
+    </script>
+
+</body>
+</html>

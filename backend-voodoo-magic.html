@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Yuki's Boredom, ">
+
+        <link rel="alternate"  href="https://yukiisbored.github.io/feeds/all.atom.xml" type="application/atom+xml" title="Yuki's Boredom Full Atom Feed"/>
+
+        <title>Backend Voodoo Magic &raquo; Yuki's Boredom </title>
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.3.0/pure-min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://yukiisbored.github.io/theme/css/pure.css">
+    <link rel="stylesheet" href="https://yukiisbored.github.io/theme/css/pygments.css">
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fitvids/1.0.1/jquery.fitvids.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".content").fitVids();
+        });
+    </script>
+</head>
+
+<body>
+    <div class="pure-g-r" id="layout">
+        <div class="sidebar pure-u">
+            <div class="cover-img" style="background: none repeat scroll 0% 0% #cd3535">
+                <div class="cover-body">
+                    <header class="header">
+                        <hgroup>
+                            <img class="avatar" src="https://avatars2.githubusercontent.com/yukiisbored?&s=300">
+                            <h1 class="brand-main"><a href="https://yukiisbored.github.io">Yuki's Boredom</a></h1>
+                            <p class="tagline"></p>
+                                <p class="social">
+                                    <a href="https://twitter.com/yuki_is_bored">
+                                        <i class="fa fa-twitter fa-3x"></i>
+                                    </a>
+                                    <a href="https://telegram.me/yuki_is_bored">
+                                        <i class="fa fa-telegram fa-3x"></i>
+                                    </a>
+                                    <a href="https://github.com/yukiisbored">
+                                        <i class="fa fa-github fa-3x"></i>
+                                    </a>
+                                    <a href="https://gitlab.com/yuki_is_bored">
+                                        <i class="fa fa-gitlab fa-3x"></i>
+                                    </a>
+                                </p>
+                        </hgroup>
+                    </header>
+                </div>
+            </div>
+        </div>
+    <div class="pure-u">
+        <div class="content">
+            <section class="post">
+                <header class="post-header">
+                    <h1>Backend Voodoo Magic</h1>
+                        <p class="post-meta">
+                            // under                                 <a class="post-category" href="https://yukiisbored.github.io/tag/system-administration.html">system administration</a>
+                                <a class="post-category" href="https://yukiisbored.github.io/tag/docker.html">docker</a>
+                                <a class="post-category" href="https://yukiisbored.github.io/tag/python.html">python</a>
+                        </p>
+                </header>
+            </section>
+            <div id="preamble">
+<div class="sectionbody">
+<div class="paragraph"><p>So coala has a new website and it’s lovely and moe (props to
+<a href="https://github.com/hemangsk">@hemangsk</a> for making such a beautiful
+site) but it has one particular problem. The backend which is used to
+fetch contributors and make the fancy &#8220;Try coala&#8221; feature to work goes
+502 on a regular basis. Which is pretty bad and really annoying.</p></div>
+<div class="paragraph"><p>At first, I just restarted it and hope it won’t do that again, but after
+a couple of hours it goes 502 again, at this point, I might as well as
+try to invoke it locally and <span class="monospaced">curl</span> says there’s no reply. I run bash
+inside the container and <span class="monospaced">curl</span> it.</p></div>
+<div class="paragraph"><p>I looked at the logs and it’s empty. The program didn’t output anything
+and I try to find some sort of log files but I have no idea where it is.</p></div>
+<div class="paragraph"><p>I asked <a href="https://github.com/hemangsk">@hemangsk</a> for the reason why the
+logs are empty. It turns out Django doesn’t output logs because it’s
+&#8220;production&#8221;. Which is pretty bad IMVHO, because it makes problems on
+production really hard to bug and it makes it even harder to debug a new
+bug on production.</p></div>
+<div class="paragraph"><p>Anyway, I ran the backend on my machine with &#8220;development&#8221; mode and it
+just freezes. I asked the community team why it’s freezing for some
+reason and <a href="https://github.com/sils">@sils</a> said to wait for it fetching contributors data.</p></div>
+<div class="paragraph"><p>After a couple of hours, this is already taking too much time.
+<a href="https://github.com/sils">@sils</a> told <a href="https://github.com/h">hemangsk</a> to include
+a loaded database to the repository. So, I pulled the new docker image,
+recreate the container, and start it.</p></div>
+<div class="paragraph"><p>After another couple of hours, it goes to the dreaded 502 error again. I
+asked the community team if it’s fetching contributors on another
+thread. <a href="https://github.com/sils">@sils</a> told me it’s on a <em>cronjob</em>. I looked at the
+<span class="monospaced">settings.py</span> file and it’s there. after a couple of minutes,
+<a href="https://github.com/sils">@sils</a> and I noticed we’re using Django’s development server
+instead of a proper Python WSGI HTTP server like Gunicorn or uWSGI.
+<a href="https://github.com/sils">@sils</a> suggested uWSGI but I told him to use Gunicorn because of
+from my experience it’s pretty fast and the advantage of having multiple
+workers. In the end, we used gunicorn and it’s stable for a whole week
+which is an outstanding achievement from the usual 6 hours of uptime.</p></div>
+<div class="paragraph"><p>To make sure it works for a really long time (long enough for me to
+watch an entire series and movies of Evangelion), I scaled the container
+for it, used haproxy as a load balancer using the classic round-robin
+and everything went buttery smooth!</p></div>
+<div class="paragraph"><p>I start to like Docker even more especially with making scaling stuff
+really easy and simple. Sure, it has a couple of problems like Docker
+engine touching your iptables and create forward rules that you didn’t
+notice but really those are manageable and it’s not like it has some
+unsecure default like MongoDB.</p></div>
+<div class="paragraph"><p>I haven’t touched Kubernetes and I hope I can play with it in the
+future.</p></div>
+<div class="paragraph"><p>That’s all, Kaisar Arkhan (Yuki) &lt;3</p></div>
+<div class="paragraph"><p>P.S: I have to apologize. The &#8220;My GCI Experience&#8221; story have to be
+delayed because I’m currently not in my writing mood and I’ve been
+pretty busy with school stuff.</p></div>
+</div>
+</div>
+
+            <a href="#" class="go-top">Go Top</a>
+<footer class="footer">
+    <p>&copy; Muhammad Kaisar Arkhan &ndash;
+        Built with a customized version of <a href="https://github.com/PurePelicanTheme/pure-single">Pure Theme</a>
+        for <a href="http://blog.getpelican.com/">Pelican</a>
+    </p>
+</footer>        </div>
+    </div>
+    </div>
+    <script>
+        var $top = $('.go-top');
+
+        // Show or hide the sticky footer button
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 200) {
+                $top.fadeIn(200);
+            } else {
+                $top.fadeOut(200);
+            }
+        });
+
+        // Animate the scroll to top
+        $top.click(function(event) {
+            event.preventDefault();
+            $('html, body').animate({scrollTop: 0}, 300);
+        })
+
+        // Makes sure that the href="#" attached to the <a> elements
+        // don't scroll you back up the page.
+        $('body').on('click', 'a[href="#"]', function(event) {
+            event.preventDefault();
+        });
+    </script>
+
+</body>
+</html>

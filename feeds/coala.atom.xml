@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Yuki's Boredom - coala</title><link href="https://yukiisbored.github.io/" rel="alternate"></link><link href="https://yukiisbored.github.io/feeds/coala.atom.xml" rel="self"></link><id>https://yukiisbored.github.io/</id><updated>2017-02-17T16:22:00+07:00</updated><entry><title>Backend Voodoo Magic</title><link href="https://yukiisbored.github.io/backend-voodoo-magic.html" rel="alternate"></link><published>2017-02-17T16:22:00+07:00</published><updated>2017-02-17T16:22:00+07:00</updated><author><name>Muhammad Kaisar Arkhan</name></author><id>tag:yukiisbored.github.io,2017-02-17:/backend-voodoo-magic.html</id><summary type="html">&lt;div id="preamble"&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;So coala has a new website and it’s lovely and moe (props to
+&lt;a href="https://github.com/hemangsk"&gt;@hemangsk&lt;/a&gt; for making such a beautiful
+site) but it has one particular problem. The backend which is used to
+fetch contributors and make the fancy &amp;#8220;Try coala&amp;#8221; feature to work goes
+502 on a regular basis …&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</summary><content type="html">&lt;div id="preamble"&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;So coala has a new website and it’s lovely and moe (props to
+&lt;a href="https://github.com/hemangsk"&gt;@hemangsk&lt;/a&gt; for making such a beautiful
+site) but it has one particular problem. The backend which is used to
+fetch contributors and make the fancy &amp;#8220;Try coala&amp;#8221; feature to work goes
+502 on a regular basis. Which is pretty bad and really annoying.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;At first, I just restarted it and hope it won’t do that again, but after
+a couple of hours it goes 502 again, at this point, I might as well as
+try to invoke it locally and &lt;span class="monospaced"&gt;curl&lt;/span&gt; says there’s no reply. I run bash
+inside the container and &lt;span class="monospaced"&gt;curl&lt;/span&gt; it.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;I looked at the logs and it’s empty. The program didn’t output anything
+and I try to find some sort of log files but I have no idea where it is.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;I asked &lt;a href="https://github.com/hemangsk"&gt;@hemangsk&lt;/a&gt; for the reason why the
+logs are empty. It turns out Django doesn’t output logs because it’s
+&amp;#8220;production&amp;#8221;. Which is pretty bad IMVHO, because it makes problems on
+production really hard to bug and it makes it even harder to debug a new
+bug on production.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;Anyway, I ran the backend on my machine with &amp;#8220;development&amp;#8221; mode and it
+just freezes. I asked the community team why it’s freezing for some
+reason and &lt;a href="https://github.com/sils"&gt;@sils&lt;/a&gt; said to wait for it fetching contributors data.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;After a couple of hours, this is already taking too much time.
+&lt;a href="https://github.com/sils"&gt;@sils&lt;/a&gt; told &lt;a href="https://github.com/h"&gt;hemangsk&lt;/a&gt; to include
+a loaded database to the repository. So, I pulled the new docker image,
+recreate the container, and start it.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;After another couple of hours, it goes to the dreaded 502 error again. I
+asked the community team if it’s fetching contributors on another
+thread. &lt;a href="https://github.com/sils"&gt;@sils&lt;/a&gt; told me it’s on a &lt;em&gt;cronjob&lt;/em&gt;. I looked at the
+&lt;span class="monospaced"&gt;settings.py&lt;/span&gt; file and it’s there. after a couple of minutes,
+&lt;a href="https://github.com/sils"&gt;@sils&lt;/a&gt; and I noticed we’re using Django’s development server
+instead of a proper Python WSGI HTTP server like Gunicorn or uWSGI.
+&lt;a href="https://github.com/sils"&gt;@sils&lt;/a&gt; suggested uWSGI but I told him to use Gunicorn because of
+from my experience it’s pretty fast and the advantage of having multiple
+workers. In the end, we used gunicorn and it’s stable for a whole week
+which is an outstanding achievement from the usual 6 hours of uptime.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;To make sure it works for a really long time (long enough for me to
+watch an entire series and movies of Evangelion), I scaled the container
+for it, used haproxy as a load balancer using the classic round-robin
+and everything went buttery smooth!&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;I start to like Docker even more especially with making scaling stuff
+really easy and simple. Sure, it has a couple of problems like Docker
+engine touching your iptables and create forward rules that you didn’t
+notice but really those are manageable and it’s not like it has some
+unsecure default like MongoDB.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;I haven’t touched Kubernetes and I hope I can play with it in the
+future.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;That’s all, Kaisar Arkhan (Yuki) &amp;lt;3&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;P.S: I have to apologize. The &amp;#8220;My GCI Experience&amp;#8221; story have to be
+delayed because I’m currently not in my writing mood and I’ve been
+pretty busy with school stuff.&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content><category term="system administration"></category><category term="docker"></category><category term="python"></category></entry></feed>

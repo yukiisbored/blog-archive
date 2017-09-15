@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Yuki's Boredom - misc</title><link href="https://yukiisbored.github.io/" rel="alternate"></link><link href="https://yukiisbored.github.io/feeds/misc.atom.xml" rel="self"></link><id>https://yukiisbored.github.io/</id><updated>2017-02-02T12:03:00+07:00</updated><entry><title>Hello World</title><link href="https://yukiisbored.github.io/hello-world.html" rel="alternate"></link><published>2017-02-02T12:03:00+07:00</published><updated>2017-02-02T12:03:00+07:00</updated><author><name>Muhammad Kaisar Arkhan</name></author><id>tag:yukiisbored.github.io,2017-02-02:/hello-world.html</id><summary type="html">&lt;div id="preamble"&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;Hello World, because of popular demand, I&amp;#8217;m starting a new blog powered by Jekyll
+and GitHub pages. In the future, I&amp;#8217;ll probably post semi-serious or random stuff
+in this webpage. My upcoming post will be my 1.5 month experience participating
+in Google Code-in 2016.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;I&amp;#8217;m planning …&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</summary><content type="html">&lt;div id="preamble"&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;Hello World, because of popular demand, I&amp;#8217;m starting a new blog powered by Jekyll
+and GitHub pages. In the future, I&amp;#8217;ll probably post semi-serious or random stuff
+in this webpage. My upcoming post will be my 1.5 month experience participating
+in Google Code-in 2016.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;I&amp;#8217;m planning to "prettify" this website as much as I can (if you know enough, you
+can see I&amp;#8217;m not good at design or drawing).&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;If you don&amp;#8217;t know me, I just want to say Hello, nice to meet you &amp;lt;3. My name is
+Muhammad Kaisar Arkhan or commonly known under the alias yuki\_is\_bored. I&amp;#8217;m
+just your average, \*nix system adminstrator and programmer. I usually do it when
+"I have the time", because I&amp;#8217;m currently still in my second year of High School.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;Recently, I&amp;#8217;ve became the grand prize winner GCI 2016 under the FOSSASIA org, but
+more detail for that later.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;English is not my native language so expect some nasty grammer mistakes, if you
+notice some, please tell me via &lt;a href="https://twitter.com/yuki_is_bored"&gt;twitter&lt;/a&gt; or
+&lt;a href="mailto:yukinagato@protonmail.com"&gt;Email&lt;/a&gt; because I want to improve my writing
+skills.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;That is all,
+Thanks for reading!&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;P.S: All of my posts will always be signed under my [Keybase account][keybase]
+as a detached &lt;span class="monospaced"&gt;.sign&lt;/span&gt; file inside the &lt;span class="monospaced"&gt;_signs&lt;/span&gt; folder on the [repo][repo].&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content><category term="greetings"></category><category term="blab"></category></entry></feed>
