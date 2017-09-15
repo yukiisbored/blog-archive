@@ -1,0 +1,46 @@
+#+TITLE: Org-mode Test
+#+DATE: 2017-09-15
+#+CATEGORY: misc
+
+Since, I really like org-mode and uses it daily. I decided to make my personal
+blog to use it as well. I wonder how well this will look. Anyway,
+here goes.
+
+* Tables
+
+| No | Item     | Inventory Number |
+|----+----------+------------------|
+|  1 | Pillows  | AA-001           |
+|  2 | Blankets | AA-002           |
+|  3 | Bread    | AA-003           |
+
+* LaTeX
+
+Foo bar \(f(x) = \frac{x^3}{n}\) chicken checken.
+
+Our best estimate of F(\nu) will be
+\[
+\hat{F}(\nu) = \frac{G(\nu)}{H(\nu)}.
+\]
+
+\begin{eqnarray*}
+\hat{f}(x) & \propto & \sum_{\nu} \frac{|F(\nu)H(\nu)|^2}{|N(\nu)|^2}
+           \frac{G(\nu)}{H(\nu)} e^{\frac{2 \pi i \nu x}{N}}\\
+           & \propto & \sum_{\nu} \frac{|F(\nu)|^2}{|N(\nu)|^2} H(\nu) H^*(\nu)
+           \frac{G(\nu)}{H(\nu)} e^{\frac{2 \pi i \nu x}{N}}\\
+           & \propto & \sum_{\nu} H^*(\nu) G(\nu) e^{\frac{2 \pi i \nu x}{N}}
+\end{eqnarray*}
+
+* Code Blocks
+
+#+BEGIN_SRC python :results output :exports both
+  def fib(n):
+       if n <= 1:
+            return 1
+       return fib(n-1) + fib(n-2)
+
+  print ", ".join([str(fib(n)) for n in range(10)])
+#+END_SRC
+
+#+RESULTS:
+: 1, 1, 2, 3, 5, 8, 13, 21, 34, 55
